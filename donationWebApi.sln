@@ -8,7 +8,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Item", "Solution I
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donation.Business", "Donation.Business\Donation.Business.csproj", "{61AA0B3A-EA4F-44FD-B996-6A25038BC3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donation.API", "Donation.API\Donation.API.csproj", "{7CBEC4C7-E7DD-4224-8A71-53E8AC46F3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donation.Data", "Donation.Data\Donation.Data.csproj", "{F715D95D-B2D4-4EDB-B216-2ADC0561AE24}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AA0B3A-EA4F-44FD-B996-6A25038BC3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AA0B3A-EA4F-44FD-B996-6A25038BC3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AA0B3A-EA4F-44FD-B996-6A25038BC3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AA0B3A-EA4F-44FD-B996-6A25038BC3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBEC4C7-E7DD-4224-8A71-53E8AC46F3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBEC4C7-E7DD-4224-8A71-53E8AC46F3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBEC4C7-E7DD-4224-8A71-53E8AC46F3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBEC4C7-E7DD-4224-8A71-53E8AC46F3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F715D95D-B2D4-4EDB-B216-2ADC0561AE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F715D95D-B2D4-4EDB-B216-2ADC0561AE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F715D95D-B2D4-4EDB-B216-2ADC0561AE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F715D95D-B2D4-4EDB-B216-2ADC0561AE24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
